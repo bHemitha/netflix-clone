@@ -1,0 +1,77 @@
+.searchResult__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+.searchResult__card {
+  width: 200px;
+  color: white;
+  background-color: #1c1c1c;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.searchResult__card:hover {
+  transform: scale(1.03);
+}
+
+.searchResult__poster {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.searchResult__title {
+  font-size: 1rem;
+  margin: 6px 0 3px;
+  font-weight: bold;
+}
+
+.searchResult__overview {
+  font-size: 0.85rem;
+  color: #ccc;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.searchResult__button {
+  background-color: #e50914;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.searchResult__button:hover {
+  background-color: #f40612;
+}
+.trailer__player {
+  margin-top: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.searchResult__watchlistButton {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.searchResult__watchlistButton:hover {
+  background-color: #f40612;
+}
+
+

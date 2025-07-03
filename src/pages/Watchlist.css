@@ -1,0 +1,49 @@
+.watchlist {
+  padding: 30px;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.watchlist__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.watchlist__poster {
+  width: 160px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.watchlist__poster:hover {
+  transform: scale(1.08);
+}
+.watchlist__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.watchlist__card {
+  width: 180px;
+  text-align: center;
+}
+
+.watchlist__poster {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.watchlist__title {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.watchlist__trailer {
+  margin-top: 10px;
+}
+
